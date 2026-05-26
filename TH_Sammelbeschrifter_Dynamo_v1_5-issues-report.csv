@@ -1,0 +1,4 @@
+Diagrammname , TH_Sammelbeschrifter_Dynamo_v1_5
+
+Knoten , Typ , Meldung , URL
+TH Sammelbeschrifter Python,WARNING,"PythonEvaluator.Evaluate fehlgeschlagen.SyntaxError : ('EOL while scanning string literal', ('<string>', 1019, 72, '            ""{} Elemente gewählt. Danach öffnet sich die Parameterwahl.\n'))",undefined
