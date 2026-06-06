@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-TH_Sammelbeschrifter_Dynamo_v1_6.py
+TH_Sammelbeschrifter_Dynamo_v1_7.py
 
 Dynamo-Python-Node für Revit / Dynamo Player:
 - Elemente in gewünschter Reihenfolge auswählen
