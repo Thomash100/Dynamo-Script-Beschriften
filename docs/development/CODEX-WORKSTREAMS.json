@@ -1,0 +1,94 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Thomash100/Global/main/docs/development/CODEX-PROJECTS.schema.json",
+  "schemaVersion": 1,
+  "registryVersion": "1.0.0",
+  "generatedAt": "2026-08-15T14:00:00+02:00",
+  "identityStandard": "global.development.identity@1.0.0",
+  "sourcePolicy": {
+    "scope": "project-local",
+    "localRepository": "Thomash100/Dynamo-Script-Beschriften",
+    "globalRegistry": "https://github.com/Thomash100/Global/blob/main/docs/development/CODEX-PROJECTS.json",
+    "localStateWins": true,
+    "historyRewriteAllowed": false
+  },
+  "statusValues": [
+    "PLANNED",
+    "ACTIVE",
+    "TECHNICALLY_COMPLETE",
+    "MANUAL_REVIEW_REQUIRED",
+    "BLOCKED",
+    "READY_FOR_NEXT",
+    "INTEGRATED",
+    "RELEASED",
+    "SUPERSEDED"
+  ],
+  "projects": [
+    {
+      "projectCode": "DYN",
+      "projectName": "Dynamo-Automatisierung",
+      "repositories": [
+        {
+          "repository": "Thomash100/Dynamo",
+          "role": "script-catalog",
+          "defaultBranch": "main",
+          "status": "ACTIVE",
+          "note": null
+        },
+        {
+          "repository": "Thomash100/Dynamo-Script-Beschriften",
+          "role": "sammelbeschrifter-product",
+          "defaultBranch": "main",
+          "status": "ACTIVE",
+          "note": null
+        }
+      ],
+      "workstreams": [
+        {
+          "workstreamId": "DYN-CATALOG",
+          "workstreamName": "Dynamo-Skriptkatalog",
+          "chatTitle": "DYN-CATALOG – Dynamo – Skriptkatalog und Pakete",
+          "repository": "Thomash100/Dynamo",
+          "identityState": "LEGACY_UNPHASED",
+          "phasePolicy": "legacy-gaps",
+          "currentPhase": null,
+          "lastCompletedPhase": null,
+          "nextPlannedPhase": null,
+          "status": "BLOCKED",
+          "branch": "feature/add-first-dynamo-script-package",
+          "pullRequest": "https://github.com/Thomash100/Dynamo/pull/3",
+          "manualGate": null,
+          "phases": [],
+          "historicalIds": [],
+          "legacyReferences": [
+            "Draft-PR #3"
+          ],
+          "blockedReason": "Lokaler Revit-/Dynamo-Test und erste Phasenreservierung sind offen."
+        },
+        {
+          "workstreamId": "DYN-TAG",
+          "workstreamName": "TH Sammelbeschrifter",
+          "chatTitle": "DYN-TAG – Dynamo – Sammelbeschrifter",
+          "repository": "Thomash100/Dynamo-Script-Beschriften",
+          "identityState": "CONFLICT",
+          "phasePolicy": "legacy-gaps",
+          "currentPhase": null,
+          "lastCompletedPhase": null,
+          "nextPlannedPhase": null,
+          "status": "BLOCKED",
+          "branch": "codex/cleanup-th-sammelbeschrifter-v1-7",
+          "pullRequest": "https://github.com/Thomash100/Dynamo-Script-Beschriften/pull/2",
+          "manualGate": null,
+          "phases": [],
+          "historicalIds": [
+            "v1.7"
+          ],
+          "legacyReferences": [
+            "PR #1",
+            "Draft-PR #2"
+          ],
+          "blockedReason": "PR-Reihenfolge und gemeinsamer Revit-/Dynamo-Player-Test sind ungeklärt."
+        }
+      ]
+    }
+  ]
+}
